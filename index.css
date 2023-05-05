@@ -1,0 +1,80 @@
+.header{
+    width: 100%;
+    /* padding-bottom: 21px; */
+    background: linear-gradient(white, lightpink),url(/OIP.jpg);
+    position: fixed;
+    top: 0;
+    
+}
+.header h1{
+    color: blue;
+    font-size: 45px;
+}
+.header p{
+    color: indigo;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+    margin-top: 23%;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.col-3{
+    flex-basis: 32%;
+    background-color: lightblue;
+
+}
+
+
+.section h1{
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.motivators{
+    margin-top: 21px;
+    text-align: center;
+}
+.run{
+    position: relative;
+    opacity: 70%;
+}
+.run h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 41px;
+    z-index: 9;
+    opacity: 100%;
+    color: white;
+}
+
+.target{
+    margin-top: 35px;
+    text-align: center;
+
+}
+.target img{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    
+}
